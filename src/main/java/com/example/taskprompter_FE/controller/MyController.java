@@ -14,25 +14,12 @@ public class MyController {
 		return "index";
 	}
 
-	@GetMapping("/login")
+	@GetMapping("/error")
 	public String login() {
-		return "Login";
+		return "error";
 	}
 
-	@GetMapping("/register")
-	public String register() {
-		return "Register";
-	}
-
-	@GetMapping("/user")
-	public String dashboard() {
-		return "DashBoard";
-	}
-
-	@GetMapping("/addTask")
-	public String addTask() {
-		return "AddTask";
-	}
+	
 
 
 
